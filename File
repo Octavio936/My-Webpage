@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .service, .post, .poetry, .merch-item {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #5cb85c;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Services</h1>
+        <p>Offering Videography, Photography, Soccer Training, Architectural Drafting, and Poetry</p>
+    </header>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#blog">Blog</a>
+        <a href="#poetry">Poetry</a>
+        <a href="#merch">Merchandise</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div id="services" class="container">
+        <h2>My Services</h2>
+        <div class="service">
+            <h3>Videography/Photography</h3>
+            <p>Capture your precious moments with professional videography and photography services. From events to portraits, we cover it all.</p>
+            <a href="#contact" class="btn">Book Now</a>
+        </div>
+
+        <div class="service">
+            <h3>Soccer Training</h3>
+            <p>Improve your skills on the field with personalized soccer training sessions. Suitable for all ages and skill levels.</p>
+            <a href="#contact" class="btn">Book Now</a>
+        </div>
+
+        <div class="service">
+            <h3>Architectural Drafting Services</h3>
+            <p>Need precise and detailed architectural drawings? Our drafting services are tailored to meet your project needs.</p>
+            <a href="#contact" class="btn">Book Now</a>
+        </div>
+
+        <div class="service">
+            <h3>Poetry</h3>
+            <p>Express your emotions through beautifully crafted poetry. Commission a custom poem for any occasion.</p>
+            <a href="#contact" class="btn">Book Now</a>
+        </div>
+    </div>
+
+    <div id="blog" class="container">
+        <h2>Blog</h2>
+        <div class="post">
+            <h3>Blog Post Title</h3>
+            <p>Preview of the blog post content. <a href="#" class="btn">Read More</a></p>
+        </div>
+        <!-- Add more blog posts as needed -->
+    </div>
+
+    <div id="poetry" class="container">
+        <h2>Poetry</h2>
+        <div class="poetry">
+            <h3>Poem Title</h3>
+            <p>Your beautifully crafted poem goes here. Share your emotions and thoughts with the world.</p>
+        </div>
+        <!-- Add more poems as needed -->
+    </div>
+
+    <div id="merch" class="container">
+        <h2>Merchandise</h2>
+        <div class="merch-item">
+            <h3>Quote on a Shirt</h3>
+            <p>Description of the merchandise item. Price: $20</p>
+            <a href="#contact" class="btn">Buy Now</a>
+        </div>
+        <div class="merch-item">
+            <h3>Quote on a Sticker</h3>
+            <p>Description of the merchandise item. Price: $5</p>
+            <a href="#contact" class="btn">Buy Now</a>
+        </div>
+        <!-- Add more merchandise items as needed -->
+    </div>
+
+    <footer id="contact">
+        <p>Contact me at <a href="mailto:your-email@example.com" style="color: #5cb85c;">your-email@example.com</a> or call (123) 456-7890</p>
+    </footer>
+</body>
+</html>
